@@ -1,0 +1,39 @@
+.slider{
+    background-image: url(../../../assets/images/about_hero.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+}
+.slide{
+    min-height: 400px;
+}
+.slider .slide h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+// product
+.Popular-product{
+    position: relative;
+    overflow: hidden;
+}
+.Popular-product .overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.red-box{
+    background-color: #ff2020;
+}
+.Popular-product:hover .overlay{
+    top: 0;
+    transition: all 2s;
+}
+
+// freeSection
+.freeSection .shoping{
+    background-color: #ff2020;
+}
